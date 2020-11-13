@@ -8,7 +8,7 @@ var http = require('http').Server(app);
 app.use(express.static(__dirname + "/"))
 app.use('/', serveIndex(__dirname + '/'));
 
-const port = 3000;
+const port = 6666;
 http.listen(port, () => {
     console.log(`Server listening at ${port}`);
 });
