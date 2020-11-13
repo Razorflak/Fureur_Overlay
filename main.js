@@ -1,0 +1,103 @@
+
+var arrayOverlay = [
+	{
+		id: 'break1',
+		src: './BreakV1/overlay.html'
+	},
+	{
+		id: 'break2',
+		src: './BreakV2/overlay.html'
+	},
+	{
+		id: 'ingame',
+		src: './InGame/overlay.html'
+	},
+	{
+		id: 'intro',
+		src: './Intro/overlay.html'
+	},
+	{
+		id: 'lobby',
+		src: './Lobby/overlay.html'
+	},
+	{
+		id: 'timer',
+		src: './TimerOnly/overlay.html'
+	}
+];
+
+var arrayParam = [
+	{
+		id: 'twitch',
+		paramsOver : 'twitch'
+	},
+	{
+		id: 'twitter',
+		paramsOver : 'tt'
+	},
+	{
+		id: 'twitter',
+		paramsOver : 'TW'
+	},
+	{
+		id: 'pseudo',
+		paramsOver : 'pseudo'
+	},
+	{
+		id: 'audioLvl',
+		paramsOver : 'audioLvl'
+	},
+	{
+		id: 'minutes',
+		paramsOver : 'minutes'
+	},
+	{
+		id: 'FB',
+		paramsOver : 'FB'
+	},
+	{
+		id: 'RS',
+		paramsOver : 'RS'
+	},
+	{
+		id: 'ratioCam',
+		paramsOver : 'ratioCam'
+	},
+	{
+		id: 'repVid',
+		paramsOver : 'folder'
+	}
+
+	
+];
+
+function onloadDefault(){
+	//définition des valeurs pas défault
+	document.getElementById('twitch').value = 'default_Twitch';
+	document.getElementById('twitter').value = 'default_Twitter';
+	document.getElementById('pseudo').value = 'd_Pseudo';
+	document.getElementById('audioLvl').value = 0;
+	document.getElementById('minutes').value = 5;
+	document.getElementById('FB').value = 'default_FB';
+	document.getElementById('RS').value = 3;
+	document.getElementById('ratioCam').value = '16.9';
+	document.getElementById('repVid').value = 'Paladins';
+
+	
+	onClickRefresh();
+}
+
+function onClickRefresh() {
+	chaineParamsURL = "";
+	arrayParam.forEach(params => {
+		const valeur = document.getElementById(params.id).value;
+		chaineParamsURL += `${params.paramsOver}=${valeur}&`;
+	})
+	console.log(chaineParamsURL)
+
+	arrayOverlay.forEach(overlay => {
+		console.log(`overlay.src?${chaineParamsURL}`);
+		const elem = document.getElementById(overlay.id).src = `${overlay.src}?${chaineParamsURL}`
+	})
+}
+

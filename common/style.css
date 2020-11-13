@@ -1,0 +1,28 @@
+#global{
+	flex-direction: row;
+}
+
+#pseudo{
+	font-size: 400px;
+	font-family:klavika;
+}
+
+#pseudoTwitter{
+	font-size: 400px;
+	font-family:picoblack;
+}
+
+
+@font-face {
+font-family: 'klavika';
+src: url('KlavikaBold.otf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'picoblack';
+src: url('picoblack.ttf');
+font-weight: normal;
+font-style: normal;
+}

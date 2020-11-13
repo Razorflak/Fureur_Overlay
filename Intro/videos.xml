@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<videos>
+	<rep rep="Overwatch">
+		<video type="video/webm" path="../video/overwatch/Bestfriend.webm"/>
+		<video type="video/mp4" path="../video/overwatch/Counter.mp4"/>
+	</rep>	
+	<rep rep="Paladins">
+		<video type="video/mp4" path="../video/Paladins/paladins-be-more-than-a-hero-official-trailer.mp4"/>
+		<video type="video/mp4" path="../video/Paladins/paladins-cinematic-trailer-champions-of-the-realm.mp4"/>
+		<video type="video/mp4" path="../video/Paladins/paladins-cinematic-trailer-go-to-war.mp4"/>
+	</rep>	
+</videos>

@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="heartbeatAnim.css" media="all"/>
+<script type="text/javascript" src="main.js"></script>
+</head>
+	<body onload="postChargement();">
+		<div id="global">
+			<video autoplay loop class="videoElem">
+				<source src="../video/background/fond-fullcam.mp4" type="video/mp4">
+			</video>
+		   <div class="photobanner">
+				<img class="first" src="../img/fresqueTrine.jpg" alt="" width="2346" height="600"/><!--
+				--><img id="middleBanner" src="../img/fresqueTrine.jpg" width="2346" height="600" alt="Natural" /><!--
+				--><img src="../img/fresqueTrine.jpg" alt="" width="2346" height="600"/>
+		   </div>
+		   <img id="logoFureur" class="heart" src="../img/fureur-follow.png"/>
+		   <div id="countdown"></div>
+			
+			<div id="reseauSoc">
+				<div id="reseauSocFureur">
+					<img class="logo" src="../img/FacebooLogo.png"/>
+					<a class="pseudo" id="fureurFaceBook">GuildeFureur</a>
+					<span style="display:inline-block; width: 15%;"></span>
+					<img class="logo" src="../img/fureurUni.png"/>
+					<a class="pseudo" id="fureurSite">Fureur.org</a>
+					<span style="display:inline-block; width: 15%;"></span>
+					<a class="pseudo" id="fureurTwitter">@Fureur</a>
+					<img class="logo" src="../img/twitterLogo.png"/>
+				</div>
+				<div id="reseauSocStreamer">
+					<div id="divRsStreameurTwitch" class="divRsStreameur">
+						<span style="display:inline-block; width: 178px;"></span>
+						<img class="logo" id="logoTwitch" src="../img/twitchLogo.png"/>
+						<a class="pseudo" id="pseudoTwitch">TOTO</a>
+					</div>
+					<div id="divRsStreameurTT" class="divRsStreameur">
+						<a class="pseudo" id="pseudoTwitter">TOTO</a>
+						<img class="logo" id="logoTwitter" src="../img/twitterLogo.png"/>
+						<span style="display:inline-block; width: 145px;"></span>
+					</div>
+				</div>
+				
+			</div>
+			
+
+			<img id="instantGaming" src="../img/LogoIgClose.png"/>
+			
+			
+
+		</div>
+		<audio id="audioElem" loop volume="0.6">
+		  <source src="../audio/TrineTheme.mp3" type="audio/ogg">
+		  <embed src="../audio/TrineTheme.mp3" autostart="true" loop="true" hidden="true"> 
+		</audio>
+	</body>
+</html> 

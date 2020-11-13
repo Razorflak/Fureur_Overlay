@@ -1,0 +1,56 @@
+body {
+    overflow:hidden;
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	max-height:1080px;
+	max-width:1920px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#compteReboursDiv{
+	position: relative;
+	text-align: center;
+	top:75%;
+}
+
+
+.divQuestion{
+	display: none;
+}
+
+.divClicable{
+	border-style: solid;
+	position: absolute;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+#divClicable1{
+	top: 50px;
+	left: 0px;
+	width: 960px;
+	height: 490px;
+	min-height: 490px;
+	border-color: red;
+}
+
+#divClicable2{
+	top:50px;
+	right: 0px;
+	width: 960px;
+	height: 490px;
+	min-height: 490px;
+	border-color: green;
+}
+
+#divClicable3{
+	bottom:0px;
+	right: 0px;
+	width: 1920px;
+	height: 540px;
+	min-height: 540px;
+	border-color: blue;
+}

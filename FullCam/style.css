@@ -1,0 +1,146 @@
+body {
+    overflow:hidden;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	min-height: 100vh;
+	min-width: 100vw;
+	max-height: 100vh;
+	max-width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	clear:none; 
+	padding:0;
+    margin:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.videoElem{
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	z-index: -1;
+}
+#RsStreameur{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#RsStreameur > div{
+	padding: auto;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.divEtiquetteStreameur{
+	position: relative;
+	width: 100%;
+	max-width: 49%;
+	color: white;
+}
+
+.divEtiquetteStreameur img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.txtEtiqStreameur{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	z-index: 10;
+	font-size: 60px;
+	font-family:fureurOffi;
+}
+
+#divCam {
+	position: absolute;
+	display: block;
+	height: 100%;
+	max-height: 850px;
+	width: 100%;
+}
+
+#cadreCam{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width:100%;
+	max-height:100%;
+}
+
+#logoFureur{
+	position: relative;
+	width: 45%;
+    margin: auto;
+}
+
+#divVidLogo{
+	position: absolute;
+	text-align: center;
+	width: 1280px;
+	height: 1080px;
+	max-height: 1080px;
+	bottom: 0px;
+	margin: 0 auto;
+}
+
+#divRS{
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	left: 1310px;
+	max-width: 640px;
+	text-align: center;
+	line-height: 76px
+	
+}
+#logoInstantGaming{
+	
+   width: 80%;
+}
+.divEtiquette img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-width: 640px;
+}
+
+.divEtiquette {
+	position: relative;
+	text-align: right;
+	top: 0;
+	bottom: 0;
+}
+
+.txtEtiq{
+	position: absolute;
+	right: 30px;
+	bottom: 60px;
+	z-index: 10;
+	font-size: 60px;
+	font-family:fureurOffi;
+}
+
+
+#textWait{
+	position: relative;
+	color: white;
+	font-size: 120px;
+	font-family:fureurOffi;
+	bottom: 20px;
+}
+
+@font-face {
+	font-family: 'fureurOffi';
+	src: url('../common/Russo_One.ttf');
+	font-weight: normal;
+	font-style: normal;
+}

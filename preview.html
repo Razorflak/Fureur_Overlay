@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylePreview.css" media="all"/>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="onloadDefault()">
+	<h1>Aperçu des Overlaya Fureur</h1>
+	<div class="configuration">
+		<div class="champ">
+			<label>Pseudo</label>
+			<input type="text" id="pseudo"/>	
+		</div>
+		<div class="champ">
+			<label>Twitch</label>
+			<input type="text" id="twitch"/>
+		</div>
+		<div class="champ">
+			<label>Twitter</label>
+			<input type="text" id="twitter"/>	
+		</div>
+		<div class="champ">
+			<label>Volume musiques des overlay (0 à 100, conseillé 5)</label>
+			<input type="number" id="audioLvl"/>	
+		</div>
+		<div class="champ">
+			<label>Durée des timers</label>
+			<input type="number" id="minutes"/>	
+		</div>
+		<div class="champ">
+			<label>Facebook</label>
+			<input type="text" id="FB"/>	
+		</div>
+		
+		<div class="champ">
+			<label>Réseau sociaux streamer à afficher (3 = Twitter et FB, 2 = Facebook, 1 = Twitter)</label>
+			<input type="text" id="RS"/>	
+		</div>
+		
+		<div class="champ">
+			<label>Ratio de la caméra</label>
+			<input type="text" list="ratio" id="ratioCam"/>
+			<datalist id=ratio >
+				<option> 16.9
+				<option> 4.3
+			  </datalist>
+		</div>
+
+		<div class="champ">
+			<label>Répertoire de vidéo pour l'into <br> Au click sur la vidéo, a la fin de celle ci l'intro se lance</label>
+			<input type="text" list="vid" id="repVid"/>
+			<datalist id=vid >
+				<option> overwatch
+				<option> Paladins
+			  </datalist>
+		</div>
+		
+	</div>
+	<button onclick="onClickRefresh()">Actualiser les overlays</button>
+	<div class="container">
+		<div class="divIframe">
+			<iframe id="break1" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="divIframe">
+			<iframe id="break2" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="divIframe">
+			<iframe id="ingame" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="divIframe">
+			<iframe id="intro" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="divIframe">
+			<iframe id="lobby" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="divIframe">
+			<iframe id="timer" class="preview1080" src="" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+</body>

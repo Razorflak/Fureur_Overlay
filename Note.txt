@@ -1,0 +1,23 @@
+Si paramètre ne pas afficher RS
+Agrandir TT "@NatanielGwent" --> Passer à 20 Caractères
+Centrer vertical Text Ecran intro
+Slide Ingame Fureur/IG Défilent
+Agrandir miniature fureur Break
+Ratio Personalisé pour webCam ?
+GGestion des espaces dans certaines variable
+
+Style Retro pour Shines
+
+Nash-
+Break: un peu sombre:
+Taille Cam Full un peu trop gros
+Lobby: Slide show Pour les étiquettes, Aéré l'ensemble. Agrandir l'espace jeu
+Game: Slide show IG/Fureur + postion réglable
+Waiting: Alignement FureurTop et logo IG, Logo Tour blanv bonne résolution
+	Toute la disposition de la ligne du haut à refaire! pour que le Fureur.org soit bien au milieux
+
+
+Scène Lobby/Chat ?
+
+Trait "orange sur Cam et etiquette à uniformiser vers le plus fin
+

@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+<script type="text/javascript" src="main.js"></script>
+</head>
+	<body onload="postChargement();">
+		<video autoplay loop class="videoElem">
+			<source src="../video/background/fond-fullcam.mp4" type="video/mp4">
+		</video>
+		<!-- Dic pour cam et jeu-->
+		<div class="princContentBox">
+			<!--zone RS-->
+			<div id="divCam">
+				<img class="cadreDiv" id="cadreCam" src="../img/cadre-cam.png"></img>
+			</div>
+			<span style="display:inline-block; width: 10%;"></span>
+			<div id="divGame">
+				<img class="cadreDiv" src="../img/cadre-cam.png"></img>
+			</div>	
+		</div>
+		<img id="logoFureur" src="../img/fureurUni.png">
+		<img id="logoIG" src="../img/LogoIgClose.png">
+		<div class="divRs" id="divRsStreameur">
+			<div class="divEtiquette divEtiquetteStreamer">
+				<span class="txtEtiqStreameur" id="txtTwitchStreameur">fureur.org</span>
+				<img class="etiquette" src="../img/etiquette-neutre.png"></img>
+			</div>
+			<div class="divEtiquette divEtiquetteStreamer">
+				<span class="txtEtiqStreameur" id="txtTwitterStreameur">GuildeFureur</span>
+				<img class="etiquette" src="../img/etiquette-tt.png"></img>
+			</div>
+		</div>
+		<div class="divRs" id="divRsFureur">
+			<div class="divEtiquette">
+				<span class="txtEtiqFureur">fureur.org</span>
+				<img class="etiquette" src="../img/etiquette-neutre.png"></img>
+			</div>
+			<div class="divEtiquette">
+				<span class="txtEtiqFureur">@Fureur</span>
+				<img class="etiquette" src="../img/etiquette-tt.png"></img>
+			</div>	
+			<div class="divEtiquette">
+				<span class="txtEtiqFureur">GuildeFureur</span>
+				<img class="etiquette" src="../img/etiquette-fb.png"></img>
+			</div>
+		</div>
+	</body>
+</html> 

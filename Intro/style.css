@@ -1,0 +1,108 @@
+body {
+    overflow:hidden;
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	max-height:1080px;
+	max-width:1920px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../img/BGWaiting.jpg');
+}
+
+div {
+	clear:none; 
+	padding:0;
+    margin:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.videoElem{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#divVideoPlayer{
+	position: relative;
+	width: 1280px;
+	height: 720px;
+	margin: auto;
+	bottom: 20px;
+	left: 20px;
+	/*right: 0;*/
+}
+
+#videoPlayer{
+	position: relative;
+	width: 1280px;
+	height: 720px;
+}
+
+#logoFureur{
+	position: relative;
+	width: 45%;
+    margin: auto;
+}
+
+#divVidLogo{
+	position: absolute;
+	text-align: center;
+	width: 1280px;
+	bottom: 0px;
+}
+
+#divRS{
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	left: 1310px;
+	max-width: 640px;
+	text-align: center;
+	line-height: 76px
+	
+}
+#logoInstantGaming{
+	
+   width: 80%;
+}
+.divEtiquette img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-width: 640px;
+}
+
+.divEtiquette {
+	position: relative;
+	text-align: right;
+	top: 0;
+	bottom: 0;
+}
+
+.txtEtiq{
+	position: absolute;
+	right: 30px;
+	bottom: 60px;
+	z-index: 10;
+	font-size: 60px;
+	font-family:fureurOffi;
+}
+
+
+#textWait{
+	position: relative;
+	color: white;
+	font-size: 120px;
+	font-family:fureurOffi;
+	bottom: 20px;
+}
+
+@font-face {
+	font-family: 'fureurOffi';
+	src: url('../common/Russo_One.ttf');
+	font-weight: normal;
+	font-style: normal;
+}

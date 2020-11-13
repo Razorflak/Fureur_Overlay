@@ -1,0 +1,316 @@
+body {
+    overflow:hidden;
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	max-height:1080px;
+	max-width:1920px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	clear:none; 
+	padding:0;
+    margin:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#barreTache{
+	position: absolute;
+	bottom: 0;
+}
+
+.videoElem{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#test{
+	z-index: 10;
+}
+#RsStreameur{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#RsStreameur > div{
+	padding: auto;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.divEtiquetteStreameur{
+	position: relative;
+	width: 100%;
+	max-width: 49%;
+	color: white;
+}
+
+.divEtiquetteStreameur img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.txtEtiqStreameur{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	z-index: 10;
+	font-size: 60px;
+	font-family:fureurOffi;
+}
+
+#divCam {
+	position: absolute;
+	display: block;
+	height: 100%;
+	max-height: 850px;
+	width: 100%;
+}
+
+#cadreCam{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width:100%;
+	max-height:100%;
+}
+
+#logoFureur{
+	position: relative;
+	width: 45%;
+    margin: auto;
+}
+
+#divVidLogo{
+	position: absolute;
+	text-align: center;
+	width: 1280px;
+	height: 1080px;
+	max-height: 1080px;
+	bottom: 0px;
+	margin: 0 auto;
+}
+
+#divRS{
+	position: absolute;
+	
+	bottom: 0px;
+	left: 1310px;
+	max-width: 640px;
+	text-align: center;
+	line-height: 76px
+	
+}
+#logoInstantGaming{
+	
+   width: 80%;
+}
+.divEtiquette img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-width: 640px;
+}
+
+.divEtiquette {
+	text-align: right;
+	color: white;
+	height: 150px;
+	opacity: 0;
+}
+
+.txtEtiq{
+	position: absolute;
+	right: 30px;
+	bottom: 60px;
+	z-index: 10;
+	font-size: 60px;
+	font-family:fureurOffi;
+}
+
+#etiquetteTwitter{
+	position: absolute;
+	left: 580px;
+	bottom: 50px;
+	
+}
+
+.slideTopEtiquetteTT{
+	animation:slide-in-out-bottom1 40s ;
+}
+.slideTopEtiquetteFB{
+	animation:slide-in-out-bottom2 40s ;
+}
+.slideTopEtiquetteTwitch{
+	animation:slide-in-out-bottom3 40s ;
+}
+
+#etiquetteFB{
+	position: absolute;
+	left: 660px;
+	bottom: 50px;
+}
+
+#etiquetteTwitch{
+	position: absolute;
+	left: 750px;
+	bottom: 50px;
+}
+
+#textWait{
+	position: relative;
+	color: white;
+	font-size: 120px;
+	font-family:fureurOffi;
+	bottom: 20px;
+}
+
+#currentDate{
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-size: 22px;
+	right: 15px;
+	bottom:6px;
+}
+
+#cursor{
+	
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	bottom: 15px;
+	left: 590px;
+animation:cursorAnim 40s infinite;
+}
+
+@font-face {
+	font-family: 'fureurOffi';
+	src: url('../common/Bebas-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Animation des étiquettes*/
+
+@keyframes cursorAnim {
+	1% {
+		transform: translateY(0);
+	}
+	19% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateX(100px);
+	}
+	49% {
+		transform: translateX(100px);
+	}
+	50% {
+		transform: translateX(200px);
+	}
+	78% {
+		transform: translateX(200px);
+	}
+	80% {
+		transform: translateX(-700px);
+	}
+	98% {
+		transform: translateX(-700px);
+	}
+	
+	
+}
+
+
+@keyframes slide-in-out-bottom1 {
+	0% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	1% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	3% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	20% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	22% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+}
+
+@keyframes slide-in-out-bottom2 {
+	0% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	20% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	22% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	50% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	52% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+}
+
+@keyframes slide-in-out-bottom3 {
+	0% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	50% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	52% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	78% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(1000px);
+		opacity: 0;
+	}
+}

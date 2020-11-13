@@ -1,0 +1,138 @@
+body {
+	overflow:hidden;
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	max-height:1080px;
+	max-width:1920px;
+	margin: 0px;
+	background-image: url('./../img/XO_013.bmp.jpg');
+	z-index: -2;
+}
+
+
+#cadreCam {
+	position: absolute;
+	margin: auto;
+}
+
+#imgCadre{
+	position: relative;
+	margin: auto;
+	max-width:100%;
+	max-height:100%;
+}
+
+#canPseudo{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#mediaPopUpDiv {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 700px;
+	height: 150px;
+	z-index: 10;
+}
+
+#pseudo {
+	position: absolute;
+    top: 215px;
+    left: 320px;
+	color: white;
+	font-size: 30px;
+	font-family:modernsansserif;
+}
+
+
+
+#frameAlert{
+	position: absolute;
+	display:block;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#logoFureur{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 10px;
+	right: 70px;
+}
+
+#instantGamingLogo{
+	position: absolute;
+	height: 200px;
+	top: 170px;
+	right: 30px;
+}
+
+/*Police*/
+
+@font-face {
+	font-family: 'modernsansserif';
+	src: url('../common/modernsansserif.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'klavika';
+	src: url('../common/KlavikaBold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'fureurOffi';
+	src: url('../common/Russo_One.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Animation Slider Sponsors*/
+
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ÃƒÂ¨re image*/
+	}
+	35%, 50% {
+		left: -200px; /*2ÃƒÂ¨me image*/
+	}
+	70%, 85% {
+		left: -400px; /*3ÃƒÂ¨me image*/
+	}
+}
+#slideshow {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin:  20px auto;
+	overflow: hidden;
+	right: 10px;
+	top: 220px;
+}
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
