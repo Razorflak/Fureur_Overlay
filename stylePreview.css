@@ -1,5 +1,6 @@
 html{
 	font-family:klavika;
+	
 }
 
 body {
@@ -7,6 +8,11 @@ body {
 	color: white;
 	min-height: 100vh;
 	max-width: 100vw;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	overflow-x: hidden
 }
 
 .headerTittle{
