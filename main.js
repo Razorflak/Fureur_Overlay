@@ -94,10 +94,17 @@ function onClickRefresh() {
 		chaineParamsURL += `${params.paramsOver}=${valeur}&`;
 	})
 	console.log(chaineParamsURL)
-
+	const rootPath = `${window.location.host}/`
+	let chainSpan  = "";
 	arrayOverlay.forEach(overlay => {
-		console.log(`overlay.src?${chaineParamsURL}`);
+		chainSpan += `${overlay.id}:<br/>${rootPath}${overlay.src.substr(2)}?${chaineParamsURL.slice(0, -1)}<br/>`;
 		const elem = document.getElementById(overlay.id).src = `${overlay.src}?${chaineParamsURL}`
 	})
+
+	document.getElementById('spanLinkOverlays').innerHTML = chainSpan
+}
+
+function generateLinksOverlays(){
+
 }
 
