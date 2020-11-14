@@ -1,8 +1,7 @@
 <?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
 <videos>
-	<rep rep="Overwatch">
-		<video type="video/webm" path="../video/overwatch/Bestfriend.webm"/>
-		<video type="video/mp4" path="../video/overwatch/Counter.mp4"/>
+	<rep rep="overwatch">
+		<video type="video/mp4" path="../video/overwatch/overwatch_intro.mp4"/>
 	</rep>	
 	<rep rep="Paladins">
 		<video type="video/mp4" path="../video/Paladins/paladins-be-more-than-a-hero-official-trailer.mp4"/>
