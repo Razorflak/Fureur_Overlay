@@ -8,4 +8,9 @@
 		<video type="video/mp4" path="../video/Paladins/paladins-cinematic-trailer-champions-of-the-realm.mp4"/>
 		<video type="video/mp4" path="../video/Paladins/paladins-cinematic-trailer-go-to-war.mp4"/>
 	</rep>	
+	<rep rep="SwordsofLegends">
+		<video type="video/mp4" path="../video/SwordsofLegends/swords-of-legends-online-announce-trailer.mp4"/>
+		<video type="video/mp4" path="../video/SwordsofLegends/yt1s.com - Berserker Trailer_1080pFHR.mp4"/>
+		<video type="video/mp4" path="../video/SwordsofLegends/yt1s.com - Reaper Trailer_1080p.mp4"/>
+	</rep>
 </videos>

@@ -1,0 +1,192 @@
+html,
+body {
+	margin: 0;
+}
+
+#global {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	min-height: 100vh;
+	min-width: 100vw;
+	max-height: 100vh;
+	max-width: 100vw;
+}
+
+#pseudoFaceBook {
+	font-family: klavika;
+}
+
+#pseudoTwitter {
+	font-family: klavika;
+}
+
+#fureurFaceBook {
+	font-family: klavika;
+}
+
+#fureurTwitter {
+	font-family: klavika;
+}
+
+#fureurSite {
+	font-family: klavika;
+}
+
+#reseauSocStreamer {
+	position: absolute;
+	flex-direction: row;
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+	top: 130px;
+	width: 100%;
+}
+
+#reseauSocFureur {
+	position: absolute;
+	flex-direction: row;
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+	bottom: 50px;
+	width: 100%;
+}
+
+#soloLogo {
+	position: absolute;
+	bottom: 75px;
+	width: 400px;
+	left: 50%; /* à 50%/50% du parent référent */
+	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+	width: 50%;
+}
+
+#logoFureur {
+	position: absolute;
+	left: 715px;
+	top: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+}
+
+.pseudo {
+	color: white;
+	font-size: 32px;
+}
+
+#frameAlert {
+	display: block;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#countdown {
+	position: absolute;
+	margin: 0 auto;
+	top: 500px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+	color: white;
+	-webkit-text-stroke: 2px black;
+	font-size: 150px;
+	font-family: modenine;
+}
+
+@font-face {
+	font-family: "modenine";
+	src: url("../common/modenine.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "klavika";
+	src: url("../common/KlavikaBold.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "picoblack";
+	src: url("../common/picoblack.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*****Slide Img*/
+
+.photobanner {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	overflow: hidden;
+	height: 1080px;
+	width: 10000px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 50s linear infinite;
+	-moz-animation: bannermove 50s linear infinite;
+	-ms-animation: bannermove 50s linear infinite;
+	-o-animation: bannermove 50s linear infinite;
+	animation: bannermove 50s linear infinite;
+}
+
+#middleBanner {
+	transform: scaleX(-1);
+}
+
+@keyframes "bannermove" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -3840px;
+	}
+}
+
+@-moz-keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -3840px;
+	}
+}
+
+@-webkit-keyframes "bannermove" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -3840px;
+	}
+}
+
+@-ms-keyframes "bannermove" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -3840px;
+	}
+}
+
+@-o-keyframes "bannermove" {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: -3840px;
+	}
+}

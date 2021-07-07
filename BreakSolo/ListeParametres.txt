@@ -1,0 +1,10 @@
+minutes --> temps de la pause en minutes (pas de virgules)
+pseudo
+RS --> 1=Twitter_Only 2=FaceBook_Only 3=Both
+audioLvl --> de 0 à 100 pour le volume de la musique par défaut 5%
+
+URl local de test 
+file:///E:/Stream/Image/FureurTV/WaitingScreen/overlay.html?minutes=2&RS=3&pseudo=VikingViolet&audioLvl=5
+
+URL online
+http://overlay-fureur.000webhostapp.com/WaitingScreen/overlay.html?minutes=2&RS=3&pseudo=VikingViolet&audioLvl=0

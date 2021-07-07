@@ -1,6 +1,5 @@
-html{
-	font-family:klavika;
-	
+html {
+	font-family: klavika;
 }
 
 body {
@@ -12,10 +11,10 @@ body {
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
-	overflow-x: hidden
+	overflow-x: hidden;
 }
 
-.headerTittle{
+.headerTittle {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -41,34 +40,32 @@ body {
 	flex-wrap: wrap;
 }
 
-.divIframe{
+.divIframe {
 	position: relative;
 	max-height: 270px;
 	max-width: 480px;
 	margin: 0 10px 10px 0;
 }
 
-.preview1080{
-	translate: -37% -37%;
+.preview1080 {
+	transform-origin: top left;
 	border: 0;
 	min-height: 1080px;
 	min-width: 1920px;
 	-ms-transform: scale(0.25);
-    -moz-transform: scale(0.25);
-    -o-transform: scale(0.25);
-    -webkit-transform: scale(0.25);
-    transform: scale(0.25);
-    
-    
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	transform: scale(0.25);
 }
 
-.configuration{
+.configuration {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-.champ{
+.champ {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -76,8 +73,8 @@ body {
 }
 
 @font-face {
-	font-family: 'klavika';
-	src: url('./common/KlavikaBold.otf');
+	font-family: "klavika";
+	src: url("./common/KlavikaBold.otf");
 	font-weight: normal;
 	font-style: normal;
 }
